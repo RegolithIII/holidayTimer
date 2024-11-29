@@ -102,3 +102,12 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+#traineau {
+    z-index: 3;
+    height: 50px;
+    position:relative;
+    left: -25px;
+    top: -15px;
+    
+}
