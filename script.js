@@ -5,8 +5,8 @@ function sleep(ms) {
 const bar = document.getElementById('bar');
 const percentage = document.getElementById('percentage');
 
-const holidayDate = new Date(2024, 9, 19, 18, 15); // Note: Months in JavaScript are 0-indexed, so January is 0.
-const begningDate = new Date(2024, 8, 2, 13, 0); 
+const holidayDate = new Date(2024, 11, 20, 18, 15); // Note: Months in JavaScript are 0-indexed, so January is 0.
+const begningDate = new Date(2024, 10, 4, 8, 0); 
 
 // Calculer et mettre à jour la largeur de la barre
 function updateBarWidth() {
