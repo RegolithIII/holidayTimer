@@ -105,9 +105,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-#box3 {
 
-}
 #percentage {
     font-size: 20px;
     opacity: 0; /* Cache le texte au début */
