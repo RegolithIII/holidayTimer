@@ -33,7 +33,7 @@ async function countdown() {
       const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-      document.getElementById("countdown").innerHTML = (`Il reste ${days} jours, ${hours} heures, ${minutes} minutes, et ${seconds} secondes avant les prochaines vacances.`);
+      document.getElementById("countdown").innerHTML = (`${days} : ${hours} : ${minutes} : ${seconds}`);
       
       await sleep(1000);
   }
